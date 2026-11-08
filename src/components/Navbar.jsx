@@ -16,6 +16,8 @@ export default function Navbar({ theme, toggleTheme }) {
         <li><NavLink to="/jokes-quotes">Jokes & Quotes</NavLink></li>
         <li><NavLink to="/pets">Pets</NavLink></li>
         <li><NavLink to="/covid">COVID-19</NavLink></li>
+        <li><NavLink to="/pokedex">Pokédex(새로 추가한 UI)</NavLink></li>
+
         <li><NavLink to="/taskflow">TaskFlow</NavLink></li>
         <li className="theme-item">
           <button 
